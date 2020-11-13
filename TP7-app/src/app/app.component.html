@@ -1,0 +1,27 @@
+<!DOCTYPE html><HTML  lang=\"en\">
+  "<head>
+" <meta charset=\"UTF-8\">
+" <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> 
+" <title>Kanban</title>
+"</head>"+
+"<BODY>"+
+"<h1> Kanban </h1>"+
+"<table><tr>"+afficheCol()+"</tr>"+
+afficheCarte()+
+"</tr><table>"+
+
+"<FORM Method=\"POST\" Action=\"/tablekanban\" accept-charset=\"UTF-8\" >
+"tache :         <INPUT type=\"text\" size=\"20\" name=\"tache\"><BR>
+"User :     <INPUT type=\"text\" size=\"20\" name=\"firstName\"><BR>
+
+    "<input type= "radio" + 
+    "  name="choix" + 
+    "  value="attente"> Attente
+    "<input type="radio"
+    "  name="choix" 
+    "  value="encours\"> En_cours"
+    "<input type=\"radio\" 
+    "  name=\"choix\"
+    "  value=\"fini\"> Fini"
+"        <INPUT type=submit value=Send>
+    
